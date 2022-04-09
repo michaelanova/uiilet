@@ -1,3 +1,53 @@
 @import '~bulma/css/bulma.min.css';
+
+
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Courgette&display=swap');
+
+// Set your brand colors
+$purple: #8A4D76;
+$pink: #FA7C91;
+$brown: #614124;
+$green: #9FC088;
+$orange: #CC704B;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+$white: #ffffff;
+
+// Update Bulma's global variables
+$family-sans-serif: 'Quicksand', sans-serif;
+$logo-font: 'Chivo', sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $green;
+$warning: #E8C07D;
+$link: $green;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $white;
+$control-border-width: 1px;
+$input-border-color: $primary;
+$control-radius: 0;
+$input-shadow: none;
+$radius: 0;
+$radius-small: 0;
+$radius-large: 0;
+$radius-rounded: 0;
+
+// Import only what you need from Bulma
+@import "~bulma/sass/utilities/_all.sass";
+@import "~bulma/sass/base/_all.sass";
+@import "~bulma/sass/elements/button.sass";
+@import "~bulma/sass/elements/container.sass";
+@import "~bulma/sass/elements/title.sass";
+@import "~bulma/sass/form/_all.sass";
+@import "~bulma/sass/components/navbar.sass";
+@import "~bulma/sass/layout/hero.sass";
+@import "~bulma/sass/layout/section.sass";
 @import '../styles/variables.scss';
 @import '../styles/base.scss';

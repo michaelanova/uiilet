@@ -1,4 +1,24 @@
-body {
-  text-align: center;
-  font-family: $font-base;
+.logo {
+  font-family: $logo-font;
+  font-weight: 900;
+  font-size: 2rem;
+  color: $white;
+  &__start {
+    font-family: 'Courgette', cursive;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    background: $green;
+  }
+  &__end {
+    font-weight: 600;
+    color: $brown;
+    font-size: 3rem;
+    left: -0.45rem;
+    position: relative;
+    top: -0.35rem;
+    z-index: -1;
+  }
 }
